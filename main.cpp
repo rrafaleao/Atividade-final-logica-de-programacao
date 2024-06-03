@@ -131,7 +131,7 @@ void buscaTarefa(const vector<Tarefa> &tarefas){
         cout <<ANSI_COLOR_GREEN "Título: "<<ANSI_COLOR_RESET <<tarefa.titulo << ", ";
         cout <<ANSI_COLOR_GREEN "Descriçao: "<<ANSI_COLOR_RESET <<tarefa.descricao<< ", ";
         cout <<ANSI_COLOR_GREEN "Vencimento: "<<ANSI_COLOR_RESET <<tarefa.vencimento<< ", ";
-        cout <<ANSI_COLOR_GREEN "Status: "<<ANSI_COLOR_RESET <<tarefa.status<< ", ";
+        cout <<ANSI_COLOR_GREEN "Status: "<<ANSI_COLOR_RESET <<tarefa.status<<endl;
         break;
       } 
     }
